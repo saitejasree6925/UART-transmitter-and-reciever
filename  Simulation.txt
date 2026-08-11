@@ -1,0 +1,3 @@
+iverilog -o uart_sim uart_tx_rx.v uart_tb.v
+vvp uart_sim
+gtkwave uart_simulation.vcd
